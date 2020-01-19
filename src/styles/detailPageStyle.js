@@ -7,7 +7,7 @@ const style= theme => ({
     },
     detailContainer:{
         display:'flex',
-        flexGrow:4,
+        flexGrow:1,
         justifyContent:'space-between',
         marginTop:theme.spacing(8),
         flexWrap:'wrap',
@@ -17,14 +17,14 @@ const style= theme => ({
         color:theme.palette.common.white
     },
     title:{
-        flexBasis: '20%'
+        flexBasis: '10%'
     },
     descriptionContainer:{
         display: 'flex',
         flexDirection: 'column',
         justifyContent:'center',
         flexWrap: "wrap",
-        maxWidth:theme.spacing(70),
+        flexBasis: '40%',
         maxHeight:theme.spacing(40)
     },
     youtubeWrapper:{
@@ -45,13 +45,6 @@ const style= theme => ({
         backgroundSize:'contain',
         width:theme.spacing(20),
         height:theme.spacing(30),
-    },
-    gridItem:{
-        marginTop:theme.spacing(8),
-        [theme.breakpoints.up('sm')]: {
-            marginTop: theme.spacing(4),
-            width: 'auto'
-        }
     }
 });
 

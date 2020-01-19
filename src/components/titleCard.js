@@ -17,10 +17,10 @@ class TitleCard extends Component {
                     title={this.props.titleDetails.title}
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography variant="h5" component="h2">
                         {this.props.titleDetails.title}
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
+                    <Typography variant="body2" color="textSecondary">
                         {this.props.titleDetails.description}
                     </Typography>
                 </CardContent>

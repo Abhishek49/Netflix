@@ -1,9 +1,9 @@
 const style = {
     card: {
-        maxWidth: 345,
+        maxWidth: 280,
     },
     media: {
-        height: 340,
+        height: 280,
         width:'auto',
         backgroundSize:'contain'
     },
