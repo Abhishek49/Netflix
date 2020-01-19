@@ -9,14 +9,22 @@ const style= theme => ({
         flexGrow:1,
         marginTop:theme.spacing(8),
         flexWrap:'wrap',
-        padding:theme.spacing(4)
+        padding:theme.spacing(4),
+        [theme.breakpoints.down('md')]: {
+            justifyContent:'space-around'
+        }
     },
     gridItem:{
         marginTop:theme.spacing(8),
         [theme.breakpoints.up('sm')]: {
             marginTop: theme.spacing(4),
             width: 'auto'
+        },
+        [theme.breakpoints.down('md')]: {
+            marginLeft: theme.spacing(2),
+            marginRight: theme.spacing(2)
         }
+
     }
 });
 

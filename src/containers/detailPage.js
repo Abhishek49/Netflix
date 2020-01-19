@@ -87,7 +87,7 @@ class DetailPage extends Component {
 
                         {/*Description*/}
                         <Grid item className={classes.descriptionContainer}>
-                            <Typography className = {`${classes.commonText} ${classes.descriptionText}`}>
+                            <Typography className = {`${classes.commonText}`}>
                                 {this.props.titleDetails.description}
                             </Typography>
                         </Grid>

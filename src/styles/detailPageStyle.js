@@ -14,7 +14,10 @@ const style= theme => ({
         padding:theme.spacing(4)
     },
     commonText:{
-        color:theme.palette.common.white
+        color:theme.palette.common.white,
+        [theme.breakpoints.down('md')]: {
+            fontSize:24
+        }
     },
     title:{
         flexBasis: '10%'
@@ -25,6 +28,9 @@ const style= theme => ({
         justifyContent:'center',
         flexWrap: "wrap",
         flexBasis: '40%',
+        [theme.breakpoints.down('md')]: {
+            flexBasis: '100%'
+        },
         maxHeight:theme.spacing(40)
     },
     youtubeWrapper:{
